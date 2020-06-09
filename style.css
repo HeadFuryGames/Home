@@ -1,0 +1,110 @@
+html, body {
+	
+	-webkit-font-smoothing: antialiased;
+    
+    text-rendering: optimizeLegibility;
+
+	scroll-behavior: smooth;
+}
+
+
+#navbarr
+{
+ float: right;
+ padding-right: 50px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: block;
+  top: 0;
+  width: 100%;
+}
+
+#navbar a {
+	
+  float: left;
+  display: block;
+  color: #ec931b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: arial;
+  width: 100px;
+  transition: width .1s;
+}
+
+#navbar a:hover {
+  background: #ddd;
+  color: black;
+  width: 200px;
+  
+}
+
+
+
+#about{
+
+background-color:#333;
+width: 100%;
+height: 100%;
+opacity: 50$;
+color: white;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+
+.column a{
+	 float: left;
+  display: block;
+  color: #ec931b;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: arial;
+  width: 50px;
+  transition: all .1s;
+  overflow: hidden;
+  position: block;
+  width: 100%;
+    
+}
+
+.column a:hover {
+  background: #ddd;
+  color: black;
+  width: 200px;
+}
+.columns:not(.is-desktop) {
+    display: flex;
+}
+
+.columns:not(:last-child) {
+    margin-bottom: calc(1.5rem - .75rem);
+}
+
+h1, h2, h3, h4, h5, a {
+    color: #ec931b;
+}
+.columns {
+	background-color: #333;
+}
+ul, li {
+	list-style-type:none;
+}
+.column {
+	position: block;
+}
+.column h2 {
+	text-align: center;
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 35px;
+}
