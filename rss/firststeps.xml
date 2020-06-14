@@ -15,7 +15,7 @@
       <title>First Steps</title>
       <link>https://headfurygames.github.io/firststeps</link>
       <description>
-        <![CDATA[ The site just launched and we are happy to announce it. <br/><br/><span style="font-size:12px; color: gray;">(Feed generated with <a href="http://fetchrss.com" target="_blank">FetchRSS</a>)</span> ]]>
+        <![CDATA[ The site just launched and we are happy to announce it. <br/><br/><span style="font-size:12px; color: gray;"></span> ]]>
       </description>
       <dc:creator/>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
