@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>First Steps - Head Fury Games</title>
+  <link>https://www.w3schools.com</link>
+  <description>The site just launched and we are happy to announce it.</description>
+  <item>
+    <title>First Steps - Head Fury Games</title>
+    <link>https://headfurygames.github.io/firststeps</link>
+    <description>The site just launched and we are happy to announce it.</description>
+  </item>
+  <item>
+    <title>First Steps - Head Fury Games</title>
+    <link>https://www.headfurygames.github.io/xml/firststeps.xml</link>
+    <description>The site just launched and we are happy to announce it.</description>
+  </item>
+</channel>
+
+</rss>
