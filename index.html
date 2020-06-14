@@ -1,81 +1,206 @@
 ﻿<!doctype html>
 <html lang="en">
-	<head>
-	<link rel="stylesheet" href="style.css">
-	<link rel="icon" type="image/png" href="pliki\jpg\webicon.png" />
-		<title>Head Fury Games</title>
-		<meta charset="UTF-8">
-		<meta name="description" content="We're an independent game development studio.">
-		<meta name="keywords" content="games, game, odyssey, head fury, head fury games, odyssey: the island, the island">
-		<meta name="author" content="Robert Wesoły">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
-	<body>
-        <div id="container">
+<head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="pliki\jpg\webicon.png" />
 
-            <div id="navbar">
-                <div id="navbarl">
-                    <a href="index.html"> <img src="pliki\jpg\logonobg.png" alt="hfg" height="80" width="180" style="margin-right: 10px;"></a>
-                    <br>
-                </div>
-                <div id="navbarr">
+    <title>Head Fury Games</title>
 
-                    <a padding-left="10" id="link" href="#about">About</a>
-                    <a class="link" href="#games">Games</a>
-                    <a class="link" href="team.html">Team</a>
-                    <a class="link" href="news.html">News</a>
-                    <a class="link" href="milestones.html">Milestones</a>
-                </div>
-            </div>
+    <meta charset="UTF-8">
+    <meta name="description" content="We're an independent game development studio from Poland.">
+    <meta name="keywords" content="games, game, odyssey, head fury, head fury games, odyssey: the island, the island">
+    <meta name="author" content="Robert Wesoły">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta property="og:title" content="Head Fury Games" />
+    <meta property="og:type" content="game" />
+    <meta property="og:url" content="https://headfurygames.github.io/" />
+    <meta property="og:site_name" content="Head Fury Games" />
+    <meta property="og:image" content="https://i.ibb.co/gd3kFG5/logo.png" />
+    <meta property="og:description" content="We're an independent game development studio from Poland." />
+    <meta property="fb:app_id" content="280980789928670" />
+</head>
+<body>
 
-            <div id="about">
-                <h1> We're an independent game development studio from Poland </h1>
-
-                <iframe src="https://trello.com/b/e5TF4EOO.html" frameBorder="0" width="100%" height="600"></iframe>
-            </div>
-            <div id="games"> <video style="opacity:0.7" width:"100%" muted loop autoplay> <source src="pliki\mp4\bg.mp4" type="video/mp4"></video> </div>
-            <div id="article3"> </div>
-
+    <!-- NAVIGATION -->
+    <div id="home" class="notranslate w3-bar">
+        <span class="branding w3-bar-item w3-center w3-mobile"><a href="index.html"> <img class="branding" src="pliki\jpg\logonobg.png" alt="hfg"></a> </span>
+        <span class="w3-right w3-center w3-mobile">
+            <a href="index.html#about" class=" w3-bar-item w3-button w3-mobile w3-hover-orange">About</a>
+            <a href="index.html#games" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Games</a>
+            <a href="index.html#team" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Team</a>
+            <a href="index.html#social" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Social</a>
+            <a href="news.html" class="w3-bar-item w3-button w3-mobile w3-hover-orange">News</a>
+        </span>
+    </div>
 
 
+    <!-- ABOUT -->
+    <section id="about" class="about showcase">
+        <div class="w3-container w3-center">
+            <i class='fa fa-home' style='font-size:40px'></i>
+            <h1 class="notranslate w3-animate-opacity">Head Fury Games</h1>
+            <p class="w3-animate-opacity"> We're an independent game development studio from Poland </p>
+        </div>
+        
+    </section>
+   <br /> <br />
 
-            <div class="columns">
+    <!-- SECTION1 - GAMES -->
+    <section id="games" class="showcase">
+        <div class="w3-container w3-center">
+            <i class='fa fa-gamepad w3-center' style='font-size:40px'></i>
+            <h2 class='w3-animate-opacity w3-center'>Our Games</h2>
+            <p class="w3-animate-opacity w3-center">What have we done and what are we working on</p>
 
-                <div class="column">
-                    <h2>Studio</h2>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#games">Games</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="milestones.html">Milestones</a></li>
-                    </ul>
-                </div>
+            <br /> <br />
 
-                <div class="column">
-                    <h2>Games</h2>
-                    <ul>
-                        <li><a href="https://Odyssey.HeadFuryGames.bitbucket.io/">Odyssey: The Island</a></li>
-                    </ul>
-                </div>
+            <div class="game w3-card-4" style="width:350px">
+                <a href="odyssey.html">
+                    <img src="pliki/jpg/splash.png" alt="odyssey" style="width:100%">
 
-                <div class="column">
-                    <h2>Social</h2>
-                    <ul>
-                        <li><a href="https://www.facebook.com/HeadFuryGames/">facebook</a></li>
-                        <li><a href="https://discord.gg/xmwWzbZ">Discord</a></li>
-                    </ul>
-                </div>
-
-                <div class="column">
-                    <h2>You</h2>
-                    <ul>
-                        <li><a href="https://auth.facepunch.com/login/?r=aHR0cHM6Ly9mYWNlcHVuY2guY29tLw%3D%3D">log in/register</a></li>
-                    </ul>
-
-                </div>
+                    <div class="w3-container w3-center">
+                        <h4><b>Odyssey: The Island</b></h4>
+                        <p>Take part in a breathtaking story of Jane and her younger brother Jack trapped on a mysterious island.</p>
+                    </div>
+                </a>
 
             </div>
-        </div> <p> © 2020 Head Fury Games - All rights reserved </p>
-	</body>
+
+
+
+        </div>
+
+
+    </section>
+
+
+    <!-- SECTION2 - TEAM -->
+    <section id="team" class="team w3-center showcase">
+        <div class="w3-container w3-center">
+            <i class='fa fa-users w3-center' style='font-size:40px'></i>
+            <h2 class='w3-animate-opacity w3-center'>Our Team</h2>
+            <p class="w3-animate-opacity w3-center">The crew inside Head Fury Games</p>
+            <a href="#home"><i class="fa fa-angle-double-up" style='font-size:40px'></i></a>
+            
+            <br /> <br />
+            <!-- TEAM MEMBERS -->
+                   <div class="cards w3-container w3-row w3-center">
+
+              <!-- COPY FOR NEW MEMBER-->
+
+                       <!-- ROBERT -->
+                       <div class="member w3-card-4 w3-half w3-mobile" style="width:300px">
+                           <div class="w3-container w3-center">
+                               <p>Robert Wesoły</p>
+                               <hr>
+                               <img src="pliki/jpg/team/robertw.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+                               <p>Programmer<br /> Poland</p><br>
+                           </div>
+
+                           <a href="https://www.linkedin.com/in/robert-weso%C5%82y-9b1b241ab/" class="notranslate w3-button w3-block w3-dark-grey">Linked<i class="fa fa-linkedin"></i></a>
+
+                       </div>
+              <!-- TO THIS PLACE-->
+
+                       <!-- DAMIAN -->
+                       <div class="member w3-card-4 w3-half w3-mobile" style="width:300px">
+                           <div class="w3-container  w3-center">
+                               <p>Damian Hoppe</p>
+                               <hr>
+                               <img src="pliki/jpg/team/noimg.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+                               <p>Programmer <br /> Poland</p><br>
+                           </div>
+
+                           <a href="https://www.linkedin.com/in/damian-hoppe-71b2381b0/" class="notranslate w3-button w3-block w3-dark-grey">  Linked<i class="fa fa-linkedin"></i></a>
+
+                       </div>
+                       <!-- WIKTOR -->
+                       <div class="member w3-card-4 w3-half w3-mobile" style="width:300px">
+                           <div class="w3-container  w3-center">
+                               <p>Wiktor Suchodolski</p>
+                               <hr>
+                               <img src="pliki/jpg/team/wiktors.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+                               <p> Game tester<br />Poland</p><br>
+                           </div>
+
+                           <a href="https://www.linkedin.com/in/wiktor-suchodolski-394112199" class="notranslate w3-button w3-block w3-dark-grey">Linked<i class="fa fa-linkedin"></i></a>
+
+                       </div>
+                       <!-- APPLY -->
+                       <div class="member w3-card-4 w3-half w3-mobile" style="width:300px">
+                           <div class="w3-container  w3-center">
+                               <p>This can be you!</p>
+                               <hr>
+                               <img src="pliki/jpg/team/noimg.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+                               <p> 3D modeller <br /> and more</p><br>
+                           </div>
+
+                           <a href="https://www.linkedin.com/in/robert-weso%C5%82y-9b1b241ab/" class="notranslate w3-button w3-block w3-dark-grey">+ Apply</a>
+
+                       </div>
+                       <!-- PASTE ABOVE-->
+                   </div>
+        </div>
+    </section>
+
+
+    <br />
+    <br />
+    <br />
+
+    <!-- SOCIAL-->
+    <section id="social" class="social showcase">
+        <div class="social w3-container w3-center">
+            <i class="fa fa-user-circle w3-center" style='font-size:40px'></i>
+            <h2 class='notranslate w3-animate-opacity w3-center'>Social</h2>
+            <p class="w3-animate-opacity w3-center">You can find us on social media</p>
+            <a href="#home"><i class="fa fa-angle-double-up" style='font-size:40px'></i></a>
+        </div>
+
+        <br />
+        <br />
+        <!-- SOCIAL TYPES-->
+        <section class="section">
+            <div class="w3-container w3-center">
+                <div class=" w3-row">
+                    <div class="w3-col m3">
+
+                        <a href="https://www.facebook.com/HeadFuryGames/"> <i class=" fa fa-facebook" w3-padding-small" style='font-size:40px'>
+                            </i></a>
+                            <h3 class="notranslate">Facebook</h3>
+
+                    </div>
+                    <div class="w3-col m3">
+
+                        <a href="https://discord.gg/xmwWzbZ"><i class=" fa fa-headphones" w3-padding-small" style='font-size:40px'>
+                            </i></a>
+                            <h3 class="notranslate">Discord</h3>
+
+</div>
+                    <div class="w3-col m3">
+
+                        <a href="https://www.youtube.com/channel/UCjAn6_5pyDuNgFeJSxYLnWQ/"><i class="fa fa-youtube" w3-padding-small" style='font-size:40px'></i></a>
+                        <h3 class="notranslate">Youtube</h3>
+
+                    </div>
+
+                    <div class="w3-col m3">
+
+                        <i class="fa fa-twitter" w3-padding-small" style='font-size:40px'></i>
+                        <h3 class="notranslate">Twitter (wip)</h3>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- FOOTER -->
+        <footer class="footer w3-black w3-padding-large w3-center">
+            <p class="notranslate">Head Fury Games &copy; 2020 </p>
+        </footer>
+</body>
 </html>
