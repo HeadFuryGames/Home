@@ -4,22 +4,22 @@
     <description>The site just launched and we are happy to announce it.</description>
     <pubDate>Sun, 14 Jun 2020 14:20:10 +0000</pubDate>
     <generator>FetchRSS</generator>
-    <link>https://headfurygames.github.io/firststeps</link>
-    <atom:link href="https://headfurygames.github.io/rss/firststeps.xml" rel="self" type="application/rss+xml"/>
+    <link>https://headfurygames.com/firststeps</link>
+    <atom:link href="https://headfurygames.com/rss/firststeps.xml" rel="self" type="application/rss+xml"/>
     <image>
-      <link>https://headfurygames.github.io/firststeps</link>
-      <url>https://headfurygames.github.io/pliki/jpg/blog/main1.png</url>
+      <link>https://headfurygames.com/firststeps</link>
+      <url>https://headfurygames.com/pliki/jpg/blog/main1.png</url>
       <title>First Steps - Head Fury Games</title>
     </image>
     <item>
       <title>First Steps</title>
-      <link>https://headfurygames.github.io/firststeps</link>
+      <link>https://headfurygames.com/firststeps</link>
       <description>
         <![CDATA[ The site just launched and we are happy to announce it. <br/><br/><span style="font-size:12px; color: gray;"></span> ]]>
       </description>
       <dc:creator/>
       <pubDate>Fri, 12 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://headfurygames.github.io/firststeps</guid>
+      <guid>https://headfurygames.com/firststeps</guid>
     </item>
   </channel>
 </rss>
