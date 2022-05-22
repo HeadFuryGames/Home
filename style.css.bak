@@ -1,0 +1,133 @@
+html {
+    background-color: #1c1919;
+    scroll-behavior: smooth;
+}
+i{
+    color: orange;
+}
+.branding {
+    height:80px;
+    width:180px;
+    margin-bottom:5px;
+}
+
+.w3-bar a {
+    font-weight: 700;
+    color: orange;
+}
+
+.w3-bar-item {
+    font-size:17px;
+
+}
+
+.about {
+    margin-top:300px;
+}
+
+.showcase {
+    padding-top: 100px;
+    padding-bottom: 400px;
+}
+.showcase h1, h2 {
+    color: white;
+    font-weight: 700;
+}
+.showcase p {
+    color:orange;
+}
+
+.game {
+    margin: 0px auto;
+}
+
+.section h2, h3, h4{
+    color: white;
+    font-weight: 700;
+}
+
+.member {
+    padding: 0 10px;
+}
+
+
+.social a {
+    color: orange;
+}
+.thread{
+    
+    margin: 0px auto;
+   
+    
+    margin-top: 200px;
+}
+    .thread h1 {
+        color: white;
+        font-weight: 700;
+    }
+    .thread h5{
+        color: white;
+    }
+    .thread p{
+        color: orange;
+    }
+
+.img-blur{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    
+}
+.blogtext {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.blognav{
+    position: relative;
+}
+
+    .blogtext a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+@media only screen and (max-width:600px){
+    .showcase {
+        height: 400px;
+        padding: 60px 0;
+    }
+    .about {
+        margin-top: 0px;
+    }
+    .member {
+        padding: 0 10px;
+        margin-bottom: 20px; 
+    }
+    .team {
+        margin-top: 450px;
+    }
+    .footer {
+        display: none;
+    }
+    .game{
+        margin: 0px auto;
+    }
+    .blogtext {
+        margin-top: 400px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .blogfirst{
+        margin-top: 400px;
+    }
+    .social {
+        margin-top: 400px;
+    }
+}
