@@ -31,14 +31,15 @@
 <body>
     <div class="news">
         <!-- PASTE THE IMG SRC HERE -->
-        <img id="illustration" class="w3-display-topmiddle img-blur w3-opacity-max" src="pliki/jpg/blog/main1.pnsg"/>
+        <img id="illustration" class="w3-display-topmiddle img-blur w3-opacity-max" src="pliki/jpg/blog/main1.png"/>
         <!-- NAVIGATION -->
         <div id="home" class="w3-bar">
         <span class="branding w3-bar-item w3-center w3-mobile"><a href="index"> <img class="branding" src="pliki\jpg\logonobg.png" alt="hfg"></a> </span>
+        <div id="home" class="w3-bar">
+        <span class="branding w3-bar-item w3-center w3-mobile"><a href="index"> <img class="branding" src="pliki\jpg\logonobg.png" alt="hfg"></a> </span>
         <span class="w3-right w3-center w3-mobile">
-            <a href="index#about" class=" w3-bar-item w3-button w3-mobile w3-hover-orange">O mnie</a>
             <a href="index#games" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Projekty</a>
-            <a href="index#team" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Zespół</a>
+            <a href="index#team" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">O mnie</a>
             <a href="index#social" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Social</a>
             <a href="news" class="w3-bar-item w3-button w3-mobile w3-hover-orange">Blog</a>
         </span>

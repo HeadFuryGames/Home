@@ -13,7 +13,7 @@
 	<!-- End Google AdSense -->
 
     <meta charset="UTF-8">
-    <meta name="description" content="We're an independent game development studio.">
+    <meta name="description" content="Strona poświęcona programowaniu gier komputerowych w środowisku Unreal Engine">
     <meta name="keywords" content="games, game, odyssey, head fury, head fury games, odyssey: the island, the island">
     <meta name="author" content="Robert Wesoły">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,7 @@
     <meta property="og:url" content="https://headfurygames.com/odyssey.html" />
     <meta property="og:site_name" content="Odyssey: The Island" />
     <meta property="og:image" content="https://i.ibb.co/gd3kFG5/logo.png" />
-    <meta property="og:description" content="Odyssey: The Island Official website" />
+    <meta property="og:description" content="Odyssey: The Island - porzucony projekt" />
     <meta property="fb:app_id" content="280980789928670" />
 </head>
 <body>

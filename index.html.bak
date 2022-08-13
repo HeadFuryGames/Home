@@ -50,9 +50,8 @@
     <div id="home" class="w3-bar">
         <span class="branding w3-bar-item w3-center w3-mobile"><a href="index"> <img class="branding" src="pliki\jpg\logonobg.png" alt="hfg"></a> </span>
         <span class="w3-right w3-center w3-mobile">
-            <a href="index#about" class=" w3-bar-item w3-button w3-mobile w3-hover-orange">O mnie</a>
             <a href="index#games" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Projekty</a>
-            <a href="index#team" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Zespół</a>
+            <a href="index#team" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">O mnie</a>
             <a href="index#social" class="is-hidden-mobile w3-bar-item w3-button w3-mobile w3-hover-orange">Social</a>
             <a href="news" class="w3-bar-item w3-button w3-mobile w3-hover-orange">Blog</a>
         </span>
@@ -79,21 +78,45 @@
 
             <br /> <br />
 
-            <div class="game w3-card-4" style="width:350px">
+		<section class="w3-row">
+            <div class="game w3-third w3-card-4 w3-margin-right" style="width:350px">
                 <a href="odyssey.html">
                     <img src="pliki/jpg/splash.png" alt="odyssey" style="width:100%">
 
                     <div class="w3-container w3-center">
-                        <h4><b>Odyssey: The Island</b></h4>
+                        <h4><b>Odyssey: The Island (2020)</b></h4>
                         <p>Porzucony projekt jednoosobowej gry komputerowej z gatunku RPG</p>
+                    </div>
+                </a>
+				</div>
+				
+				 <div class="game w3-third w3-card-4 w3-margin-right" style="width:350px">
+                <a href="odyssey.html">
+                    <img src="pliki/jpg/towardsthelight.png" alt="odyssey" style="width:100%">
+
+                    <div class="w3-container w3-center">
+                        <h4><b>Towards The Light (2021)</b></h4>
+                        <p>Projekt wieloosobowej gry komputerowej z gatunku FPS a'la Escape royale</p>
                     </div>
                 </a>
 
             </div>
 
 
+			<div class="game w3-third w3-card-4 w3-margin-right" style="width:350px">
+                <a href="odyssey.html">
+                    <img src="pliki/jpg/towardsthelight.png" alt="odyssey" style="width:100%">
 
-        </div>
+                    <div class="w3-container w3-center">
+                        <h4><b>Boulderville mystery (2022)</b></h4>
+                        <p>Projekt jednoosobowej gry komputerowej o charakterze przygodowo platformowym</p>
+                    </div>
+                </a>
+
+            </div>
+
+        
+		</section>
 
 
     </section>
@@ -110,7 +133,11 @@
             <br /> <br />
             <!-- TEAM MEMBERS -->
             <div class="cards w3-container w3-row w3-center">
-			<p style="justify"> Nazywam się Robert, mam 23 lata, jestem studentem informatyki na prywatnej uczelni Copernicus we Wrocławiu w Polsce. Uczę się programowania gier w środowisku Unreal engine od ponad 2 lat. </p> <br>
+			<p> Nazywam się Robert, mam 23 lata. Jestem studentem III roku
+				Informatyki na Uczelni "COPERNICUS" we Wrocławiu. 
+				Uczę się programowania gier w środowisku Unreal Engine od ponad 2 lat. 
+				
+			</p> <br>
 
                 <!-- COPY FOR NEW MEMBER-->
                 <!-- ROBERT -->
